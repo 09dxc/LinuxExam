@@ -19,7 +19,7 @@ public class QueryNote extends HttpServlet {
 	static final String USER = "root";
 	static final String PASS = "Dxc123566!";
 	static final String SQL_SELECT_BOOK_BY_ID = "SELECT id,notepadContent,notepadTime FROM t_notepad WHERE id=?";
-	static final String REDIS_URL = "124.70.177.207";
+	static final String REDIS_URL = "127.0.0.1";
 
 	static Connection conn = null;
 	static Jedis jedis = null;
